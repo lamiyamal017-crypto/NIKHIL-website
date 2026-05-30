@@ -1,0 +1,117 @@
+{
+  "siteSettings": {
+    "coupleName": "Nikhil Weds Hismitha",
+    "weddingDate": "2026-06-04",
+    "subtitle": "By God's Grace, We Invite You To Celebrate Our Wedding",
+    "heroImage": "https://images.unsplash.com/photo-1607190074257-dd4b7af0309f?q=80&w=2000",
+    "themeColor": "gold",
+    "isCountdownEnabled": true,
+    "memorialTitle": "In Loving Memory",
+    "memorialNames": [
+      "Uppati Isaac Garu",
+      "Uppati Rebecca Garu"
+    ]
+  },
+  "familyDetails": {
+    "groomParents": {
+      "parents": [
+        "Late Rajasekhar Garu",
+        "Kumari Mannem Garu"
+      ]
+    },
+    "mamajiFamily": {
+      "parents": [
+        "Santhosh Rao Garu",
+        "Bhagyavati Garu"
+      ]
+    },
+    "groomRelatives": {
+      "title": "D. Kantha Rao Garu & Ruth Garu",
+      "children": [
+        "Kala",
+        "Vidya",
+        "Keerthana"
+      ]
+    },
+    "cousins": [
+      "Latha",
+      "Rajesh",
+      "Swarna",
+      "Rakesh",
+      "Satish"
+    ]
+  },
+  "events": [
+    {
+      "id": "evt-1",
+      "key": "haldi",
+      "name": "Haldi Ceremony",
+      "date": "2026-06-02",
+      "time": "10:00 AM onwards",
+      "description": "Let the celebration begin with the splash of yellow, love, and laughter! Join us as we cover the groom and bride in fragrant turmeric blessings.",
+      "venueName": "Groom's Residence / Event Hall",
+      "venueAddress": "Dubacherla, Main Road, NH-5, Eluru–Rajahmundry Road, Dubacherla, Andhra Pradesh 534112"
+    },
+    {
+      "id": "evt-2",
+      "key": "pradhanam",
+      "name": "Pradhanam",
+      "date": "2026-06-03",
+      "time": "05:00 PM onwards",
+      "description": "An auspicious ceremony sealing the commitments and blessings of both families as we take the step towards the sacred vows.",
+      "venueName": "Event Venue Hall",
+      "venueAddress": "Dubacherla, Main Road, NH-5, Eluru–Rajahmundry Road, Dubacherla, Andhra Pradesh 534112"
+    },
+    {
+      "id": "evt-3",
+      "key": "wedding",
+      "name": "Wedding Ceremony",
+      "date": "2026-06-04",
+      "time": "10:30 AM onwards",
+      "description": "By God's grace, we exchange our wedding vows in holy matrimony. Followed by a joyous celebratory luncheon.",
+      "venueName": "Wedding Venue",
+      "venueAddress": "Dubacherla, Main Road, NH-5, Eluru–Rajahmundry Road, Dubacherla, Andhra Pradesh 534112"
+    }
+  ],
+  "coordinators": [
+    {
+      "id": "coord-1",
+      "name": "Rajesh",
+      "phone": "9100220126",
+      "role": "Groom Coordinator"
+    },
+    {
+      "id": "coord-2",
+      "name": "Sonu",
+      "phone": "8384043136",
+      "role": "Logistics Coordinator"
+    }
+  ],
+  "galleryImages": [
+    {
+      "id": "gal-1",
+      "url": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=1000",
+      "category": "wedding",
+      "caption": "Holy Rings of Matrimony",
+      "order": 1,
+      "createdAt": "2026-05-30T06:38:50.687Z"
+    },
+    {
+      "id": "gal-2",
+      "url": "https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=1000",
+      "category": "haldi",
+      "caption": "Turmeric Blessings",
+      "order": 1,
+      "createdAt": "2026-05-30T06:38:50.687Z"
+    },
+    {
+      "id": "gal-3",
+      "url": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1000",
+      "category": "pradhanam",
+      "caption": "Family Commitments",
+      "order": 1,
+      "createdAt": "2026-05-30T06:38:50.687Z"
+    }
+  ],
+  "rsvps": []
+}

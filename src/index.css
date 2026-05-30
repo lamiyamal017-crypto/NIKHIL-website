@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,300..800;1,300..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-gold-50: #FDF9F6;
+  --color-gold-100: #F2E5D5;
+  --color-gold-200: #E8D5C8;
+  --color-gold-300: #D4AF37;
+  --color-gold-400: #B08D3E;
+  --color-gold-500: #93712B;
+  --color-gold-600: #775A20;
+  --color-gold-700: #5C4416;
+  --color-gold-800: #42300D;
+  --color-gold-900: #2D2926;
+
+  --color-blush-50: #FDF9F6;
+  --color-blush-100: #F8ECE7;
+  --color-blush-200: #F2DCD3;
+  --color-blush-300: #E7C9BC;
+  --color-blush-400: #D4A390;
+  --color-blush-500: #B6816D;
+  --color-blush-600: #935F4C;
+  --color-blush-700: #714131;
+  --color-blush-800: #512B1E;
+  --color-blush-900: #331A11;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes ring-glow {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-ring-glow {
+  animation: ring-glow 4s ease-in-out infinite;
+}
+
+/* Custom cinematic color grading filters on images */
+.cinematic-wedding {
+  filter: brightness(1.02) contrast(1.03) saturate(1.02) sepia(0.08);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15), inset 0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 1.5rem;
+}
+
+.gold-border { border-color: #D4AF37; }
+.gold-text { color: #B08D3E; }
+.blush-bg { background-color: #F8ECE7; }
+.cinematic-overlay {
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(45, 41, 38, 0.6) 100%);
+  box-shadow: inset 0 0 100px rgba(212, 175, 55, 0.15);
+}
+.soft-glow { filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.3)); }
+.vertical-text { writing-mode: vertical-rl; transform: rotate(180deg); }
+

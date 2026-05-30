@@ -1,0 +1,6 @@
+{
+  "name": "Nikhil Weds Hismitha",
+  "description": "Elegant premium wedding website for Nikhil and Hismitha, featuring a cinematic countdown, events timeline, photo galleries, and RSVP management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
